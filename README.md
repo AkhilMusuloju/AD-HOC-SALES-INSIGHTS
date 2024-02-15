@@ -7,8 +7,9 @@
 - Objective is to extract actionable insights from data using SQL queries for 10 ad hoc requests.
 - Craft visuals using power BI to show the insights and help top-level management make data-informed decisions. 
 
-_[Live Report Link](https://www.canva.com/design/DAF8R54Kojk/Wl3dQ5ebTZmQDn3pTPkuhQ/view?utm_content=DAF8R54Kojk&utm_campaign=designshare&utm_medium=link&utm_source=editor)_
+_[Live Dashboard Link](https://www.canva.com/design/DAF8R54Kojk/Wl3dQ5ebTZmQDn3pTPkuhQ/view?utm_content=DAF8R54Kojk&utm_campaign=designshare&utm_medium=link&utm_source=editor)_
 
+_[Presentation Link](https://www.canva.com/design/DAF8R54Kojk/Wl3dQ5ebTZmQDn3pTPkuhQ/view?utm_content=DAF8R54Kojk&utm_campaign=designshare&utm_medium=link&utm_source=editor)_
 
 ## **INTRODUCTION**
 

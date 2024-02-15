@@ -1,5 +1,8 @@
 # ATLIQ-HARDWARE-SALES-INSIGHTS-FROM-AD-HOC-REQUESTS
 
+_[Live Report Link](https://www.canva.com/design/DAF8R54Kojk/Wl3dQ5ebTZmQDn3pTPkuhQ/view?utm_content=DAF8R54Kojk&utm_campaign=designshare&utm_medium=link&utm_source=editor)_
+
+
 ## **INTRODUCTION**
 
 - AtliQ Hardware is a leading manufacturer of computer hardware and peripherals in India.

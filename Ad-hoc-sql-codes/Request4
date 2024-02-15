@@ -1,0 +1,21 @@
+/*4. Follow-up: Which segment had the most increase in unique products in
+2021 vs 2020? The final output contains these fields,
+segment
+product_count_2020
+product_count_2021
+difference*/
+
+WITH CTE AS (
+			SELECT  d.segment, 
+				COUNT(DISTINCT CASE 
+						WHEN fiscal_year = 2020 THEN f.product_code END) AS product_count_2020,
+				COUNT(DISTINCT CASE 
+						WHEN fiscal_year = 2021 THEN f.product_code END) AS product_count_2021
+			FROM		dim_product d
+            JOIN		fact_gross_price f	USING ( product_code)
+            GROUP BY 	d.segment)
+			
+			SELECT  segment, Product_count_2020,  Product_count_2021, (Product_count_2021-Product_count_2020) AS Differance,
+			ROUND((((Product_count_2021-Product_count_2020)/Product_count_2020)*100),2) AS Percentage
+			FROM		CTE
+            ORDER BY	Percentage DESC;

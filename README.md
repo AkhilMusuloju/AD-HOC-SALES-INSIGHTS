@@ -1,5 +1,12 @@
 # ATLIQ-HARDWARE-SALES-INSIGHTS-FROM-AD-HOC-REQUESTS
 
+## **OVERVIEW**
+
+- AtliQ Hardware is a leading manufacturer of computer hardware and peripherals in India and established its presence in other parts of the world as well.
+- They want to expand their data analytics team with candidates good at both tech and soft skills. They decided to conduct a SQL challenge with 10 ad hoc requests for which the business needs insights.
+- Objective is to extract actionable insights from data using SQL queries for 10 ad hoc requests.
+- Craft visuals using power BI to show the insights and help top-level management make data-informed decisions. 
+
 _[Live Report Link](https://www.canva.com/design/DAF8R54Kojk/Wl3dQ5ebTZmQDn3pTPkuhQ/view?utm_content=DAF8R54Kojk&utm_campaign=designshare&utm_medium=link&utm_source=editor)_
 
 

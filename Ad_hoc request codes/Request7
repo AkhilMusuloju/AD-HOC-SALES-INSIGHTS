@@ -1,0 +1,17 @@
+/*7. Get the complete report of the Gross sales amount for the customer “Atliq
+Exclusive” for each month. This analysis helps to get an idea of low and
+high-performing months and take strategic decisions.
+The final report contains these columns:
+Month
+Year
+Gross sales Amount*/
+
+
+SELECT		MONTH(f.date) AS Month, YEAR(f.date) AS Year, 
+ROUND(SUM(f.sold_quantity * g.gross_price),2) AS gross_sales
+FROM		dim_customer d 
+JOIN		fact_sales_monthly f 	USING	(customer_code)
+JOIN		fact_gross_price g 		USING	(Product_code,fiscal_year)
+WHERE		d.customer = "Atliq Exclusive"
+GROUP BY	Month
+ORDER BY	Year;
